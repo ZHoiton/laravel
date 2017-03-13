@@ -1,0 +1,129 @@
+/*body, html {height:100%;}*/
+
+body {
+	margin: 0px 0px 0px 0px;
+	font-size: 16px;
+	font-family: Oxygen;
+	background-color: #25323a;
+    overflow: hidden;
+}
+
+/*div.wrap {height:100%; overflow:hidden;}*/
+
+.menubar {
+	width: 100%;
+	background-color: #c0e4d8;
+	height: 50px;
+	min-height: 45px;
+	min-width: 200px;
+	float:left;
+	position: fixed;
+	font-size: 18px;
+}
+
+#logo {
+	display: block;
+	float: inherit;
+	margin: 5px;
+}
+
+#barzanavigaciqta {
+    list-style: none;
+    display: inline;
+    float: right;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+li.navButtoni {
+    float: left;
+    height: 100%;
+    margin: 12px;
+}
+
+a.navButtoniLinks:link {
+	text-decoration: none;
+    color: #25323a;
+    font-weight: bold;
+}
+
+a.navButtoniLinks:hover {
+	text-decoration: none;
+    color: #1a7a6e;
+    font-weight: bold;
+}	
+
+@media screen and (min-width: 480px) {
+	    #barzanavigaciqta {
+	    margin-right: 20px;
+		}
+
+		li.navButtoni {
+		    margin: 12px;
+		}
+
+		a.navButtoniLinks:link {
+			font-size: 16px;
+		}
+
+		a.navButtoniLinks:hover {
+			font-size: 16px;
+		}
+
+		#logo {
+		display: block;
+		float: left;
+		margin: 5px;
+		height: 40px;
+		width: 85px;
+		}
+
+}
+
+#razlika {
+	margin: 0px;
+	height: 50px;
+}
+
+.hideable {
+    opacity: 0.6;
+}
+
+.hideable:hover {
+    opacity: 1;
+}
+
+.logota:hover {
+    opacity: 0.5;
+}
+
+/*
+.opacity {
+    opacity: inherit;
+}
+*/
+
+.igri {
+    height: 100%;
+    width: 33.3%;
+    float: left;
+    display: block;
+    opacity: inherit;
+}
+
+#div, #div2, #div3 {
+    display: none;
+    height: 100%;
+    width: 100%;
+/*    background-color: black;*/
+    color: aliceblue;
+    text-align: center;
+}
+
+.tourInfo {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+

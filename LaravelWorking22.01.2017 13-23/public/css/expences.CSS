@@ -1,0 +1,87 @@
+body {
+	margin: 0px 0px 0px 0px;
+	font-size: 16px;
+	font-family: Oxygen;
+	background-color: #25323a;
+}
+
+.menubar {
+	width: 100%;
+	background-color: #c0e4d8;
+	height: 50px;
+	min-height: 45px;
+	min-width: 200px;
+	float:left;
+	position: fixed;
+	font-size: 18px;
+}
+
+#logo {
+	display: block;
+	float: inherit;
+	margin: 5px;
+}
+
+#barzanavigaciqta {
+    list-style: none;
+    display: inline;
+    float: right;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+li.navButtoni {
+    float: left;
+    height: 100%;
+    margin: 12px;
+}
+
+a.navButtoniLinks:link {
+	text-decoration: none;
+    color: #25323a;
+    font-weight: bold;
+}
+
+a.navButtoniLinks:hover {
+	text-decoration: none;
+    color: #1a7a6e;
+    font-weight: bold;
+}	
+
+#razlika {
+	margin: 0px;
+	height: 50px;
+}
+
+#warning {
+	color: #c0e4d8;
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 250px;
+	margin-left:250px;
+	font-size:24px;
+}
+
+#expenceMsg {
+	color: #c0e4d8;
+	text-align: center;
+	font-size: 24px;
+}
+
+#butoncheta {
+	height: 80px;
+	width: 240px;
+	background-color: #c0e4d8;
+	color: #58b09f;
+	border: 2px solid;
+	border-color: #58b09f;
+	margin: 5px;
+	font-size: 18px;
+}
+
+#butoncheta:hover {
+	cursor:pointer;
+	background-color: #58b09f;
+	color: #c0e4d8;
+}

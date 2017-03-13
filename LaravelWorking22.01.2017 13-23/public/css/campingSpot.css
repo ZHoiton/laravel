@@ -1,0 +1,101 @@
+body {
+	margin: 0px 0px 0px 0px;
+	font-size: 16px;
+	font-family: Oxygen;
+	background-color: #25323a;
+}
+
+.menubar {
+	width: 100%;
+	background-color: #c0e4d8;
+	height: 50px;
+	min-height: 45px;
+	min-width: 200px;
+	float:left;
+	position: fixed;
+	font-size: 18px;
+}
+
+#logo {
+	display: block;
+	float: inherit;
+	margin: 5px;
+}
+
+#barzanavigaciqta {
+    list-style: none;
+    display: inline;
+    float: right;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+li.navButtoni {
+    float: left;
+    height: 100%;
+    margin: 12px;
+}
+
+a.navButtoniLinks:link {
+	text-decoration: none;
+    color: #25323a;
+    font-weight: bold;
+}
+
+a.navButtoniLinks:hover {
+	text-decoration: none;
+    color: #1a7a6e;
+    font-weight: bold;
+}	
+
+#razlika {
+	margin: 0px;
+	height: 50px;
+}	
+
+#infoCS {
+	background-color: #1a4548;
+	color: #c0e4d8;
+	height: 250px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 25px;
+	text-align: left;
+	font-size: 20px;
+}
+
+#infoCS > h3 {
+	font-size: 26px;
+}
+
+#zaglavie {
+	color: #1a7a6e;
+	margin-top: 70px;
+}
+
+#wrap {
+	text-align: center;
+}
+
+#karta {
+	height: 200px;
+	width: 300px;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+
+.labelcheta {
+    color: #c0e4d8;
+}
+
+.butnchenca {
+    height: 40px;
+	width: 120px;
+	background-color: #c0e4d8;
+	color: #58b09f;
+	border: 2px solid;
+	border-color: #58b09f;
+	margin: 5px;
+	font-size: 18px;
+}
